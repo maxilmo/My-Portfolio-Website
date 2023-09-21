@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-  color: gray;
+  color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -287,7 +287,7 @@ section {
   bottom: 2.5rem;
 }
 
-.details-containers {
+.details-container {
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -397,13 +397,13 @@ article .icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5;
+  gap: 0.5rem;
   margin: 1rem;
 }
 
 ,
 .contact-info-container p {
-  font-size: large;
+  font-size: larger;
 }
 
 .contact-icon {
@@ -412,4 +412,15 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
